@@ -1,0 +1,56 @@
+; Hora Dorada - versión beta en Godot 4.7
+; Proyecto del equipo (UTH, IDGS 8-2). Ver README.md.
+
+config_version=5
+
+[application]
+
+config/name="Hora Dorada (Beta)"
+config/description="Rompecabezas 3D: mueve el sol, mueve tu sombra. Versión beta en Godot 4.7."
+config/version="0.9.0-beta"
+run/main_scene="res://escenas/menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.png"
+boot_splash/bg_color=Color(0.13, 0.09, 0.07, 1)
+boot_splash/image="res://icon.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+
+[autoload]
+
+Eventos="*res://scripts/autoload/eventos.gd"
+Juego="*res://scripts/autoload/juego.gd"
+Sonido="*res://scripts/autoload/sonido.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[gui]
+
+theme/default_font_antialiasing=0
+
+[importer_defaults]
+
+texture={
+"compress/mode": 0,
+"detect_3d/compress_to": 0,
+"mipmaps/generate": false
+}
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+textures/default_filters/use_nearest_mipmap_filter=true
+lights_and_shadows/directional_shadow/size=4096
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=2
+anti_aliasing/quality/msaa_3d=2

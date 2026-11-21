@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://pbcy1v4hq1nr"
+
+[deps]
+
+files=["res://assets/ORIGEN.fuente.translation", "res://assets/ORIGEN.archivo.translation"]
+
+source_file="res://assets/ORIGEN.csv"
+dest_files=["res://assets/ORIGEN.fuente.translation", "res://assets/ORIGEN.archivo.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

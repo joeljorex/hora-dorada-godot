@@ -1,0 +1,7 @@
+# Godot
+.godot/
+*.translation
+# El ejecutable pesa ~118 MB (más que el límite de GitHub): se sube como Release
+build/
+# Resultados temporales
+docs/capturas/rendimiento.json
