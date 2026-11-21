@@ -1,0 +1,537 @@
+{
+	"fallas": 0,
+	"fecha": "2026-11-21 15:20:58",
+	"godot": "4.7.2-stable (official)",
+	"resultados": [
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Al amanecer la sombra apunta al oeste"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Al mediodía la sombra apunta al norte"
+		},
+		{
+			"detalle": "5.87 vs 0.47",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "La sombra de la mañana es mucho más larga que la del mediodía"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "La sombra nunca pasa del máximo (12 casillas)"
+		},
+		{
+			"detalle": "alto 0.88 / piso 0.88",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Desde lo alto la sombra empieza más lejos"
+		},
+		{
+			"detalle": "largo al mediodía 0.47",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "La sombra cubre un punto que está en su camino"
+		},
+		{
+			"detalle": "largo 5.87",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "En la mañana la sombra larga alcanza 4 casillas (hacia el oeste)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "La sombra no cubre un punto detrás de Gno"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "La sombra no cubre un punto a un lado"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Sin sombra (bajo una nube) no cubre nada"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Girar la cámara y regresar da la misma dirección (vista 0)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Girar la cámara y regresar da la misma dirección (vista 1)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Girar la cámara y regresar da la misma dirección (vista 2)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Girar la cámara y regresar da la misma dirección (vista 3)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Con un giro, la sombra de la mañana cae al sur (GDD)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Sol y sombra",
+			"ok": true,
+			"prueba": "Hora del reloj: 6:00 a.m. a 7:00 p.m."
+		},
+		{
+			"detalle": "",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "Bono de corazones: 100 por corazón"
+		},
+		{
+			"detalle": "250",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "Bono de arena: 5 por cada 1 % que sobra"
+		},
+		{
+			"detalle": "160",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "Bono de rapidez: 2 por segundo debajo de 180"
+		},
+		{
+			"detalle": "1510",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "El total suma todos los bonos"
+		},
+		{
+			"detalle": "750",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "El evento Día veloz multiplica ×1.5"
+		},
+		{
+			"detalle": "",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "Si el reto no se cumple no da bono"
+		},
+		{
+			"detalle": "",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "El puntaje nunca es negativo"
+		},
+		{
+			"detalle": "",
+			"grupo": "Puntaje",
+			"ok": true,
+			"prueba": "Estrellas según los umbrales del nivel"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 1 (Amanecer): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 1: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 1: tiene flores (4)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 1: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 2 (Adelanta el sol): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 2: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 2: tiene flores (2)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 2: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 3 (Del otro lado): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 3: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 3: tiene flores (4)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 3: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 4 (Placas lunares): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 4: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 4: tiene flores (2)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 4: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 5 (Destellos): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 5: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 5: tiene flores (4)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 5: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 6 (Nido de serpientes): mide 24 × 13"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 6: un inicio y una salida"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 6: tiene flores (4)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Niveles",
+			"ok": true,
+			"prueba": "Nivel 6: se puede llegar del inicio a la salida (con puertas abiertas)"
+		},
+		{
+			"detalle": "No te alcanza: cuesta 20 y tienes 0.",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Sin monedas la compra se rechaza"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Se avisa el rechazo por el bus de eventos"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Se depositan 100 monedas"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "El depósito queda en el historial"
+		},
+		{
+			"detalle": "Compraste: Escudo de luz",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Comprar escudo (20) deja 80"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "El escudo queda en el inventario"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Comprar disfraz (80) lo pone de una vez"
+		},
+		{
+			"detalle": "Ya tienes ese disfraz.",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "No se puede comprar dos veces el mismo disfraz"
+		},
+		{
+			"detalle": "0 = 0",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "El saldo coincide con la suma del historial"
+		},
+		{
+			"detalle": "Solo puedes guardar 3 de este artículo.",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Máximo 3 consumibles del mismo tipo"
+		},
+		{
+			"detalle": "Las oportunidades se compran durante una partida.",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "La oportunidad extra solo se compra en una partida"
+		},
+		{
+			"detalle": "4",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Comprar oportunidad extra suma un intento"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Cada transacción tiene folio, fecha y saldo"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Guardar y cargar conserva saldo e historial"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Un archivo dañado se respalda y no truena el juego"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Los consumibles se usan solos al empezar el nivel"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Una partida nueva empieza con 3 oportunidades"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Perder un nivel cuesta una oportunidad"
+		},
+		{
+			"detalle": "",
+			"grupo": "Transacciones del Mercado",
+			"ok": true,
+			"prueba": "Con 0 oportunidades se acaba la partida"
+		},
+		{
+			"detalle": "4 de 4",
+			"grupo": "Integración: demo (piloto automático)",
+			"ok": true,
+			"prueba": "La demo abre todas las flores del nivel 1 con la sombra"
+		},
+		{
+			"detalle": "16.9 s de juego",
+			"grupo": "Integración: demo (piloto automático)",
+			"ok": true,
+			"prueba": "La demo llega al reloj de sol y gana el nivel 1"
+		},
+		{
+			"detalle": "400",
+			"grupo": "Integración: demo (piloto automático)",
+			"ok": true,
+			"prueba": "Los puntos de las flores se suman (100 por flor)"
+		},
+		{
+			"detalle": "70 = 70",
+			"grupo": "Integración: demo (piloto automático)",
+			"ok": true,
+			"prueba": "La demo no guarda monedas ni puntaje"
+		},
+		{
+			"detalle": "4",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "El nivel 5 tiene 4 destellos"
+		},
+		{
+			"detalle": "3 → 2",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Chocar con un destello quita un corazón (Area3D)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Después del golpe Gno es invulnerable un momento"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Mientras es invulnerable no recibe otro golpe"
+		},
+		{
+			"detalle": "apagado 1.03",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Cubrir un destello con la sombra medio segundo lo apaga"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "El nivel cuenta los enemigos apagados (evento del bus)"
+		},
+		{
+			"detalle": "0 → 1",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Tocar una moneda la recoge (Area3D.body_entered)"
+		},
+		{
+			"detalle": "z = 5.28, muro en 4",
+			"grupo": "Integración: colisiones y comportamientos (nivel 5, Destellos)",
+			"ok": true,
+			"prueba": "Los muros detienen a Gno (CharacterBody3D contra StaticBody3D)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "Si se acaba la arena se pierde el nivel"
+		},
+		{
+			"detalle": "2",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "Perder cuesta una oportunidad (3 → 2)"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "Llegar al reloj con las flores abiertas gana el nivel"
+		},
+		{
+			"detalle": "0 → 7",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "Al ganar se depositan las monedas del nivel"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "El depósito queda como transacción de ingreso"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: arena, intentos y victoria",
+			"ok": true,
+			"prueba": "Ganar desbloquea el siguiente nivel"
+		},
+		{
+			"detalle": "",
+			"grupo": "Integración: serpientes y lagartija (nivel 6)",
+			"ok": true,
+			"prueba": "El nivel 6 tiene serpientes y una lagartija"
+		},
+		{
+			"detalle": "perseguir",
+			"grupo": "Integración: serpientes y lagartija (nivel 6)",
+			"ok": true,
+			"prueba": "La serpiente persigue a Gno cuando está cerca"
+		},
+		{
+			"detalle": "embestir",
+			"grupo": "Integración: serpientes y lagartija (nivel 6)",
+			"ok": true,
+			"prueba": "La lagartija embiste si Gno queda en su fila"
+		}
+	],
+	"total": 88,
+	"version": "0.9.0-beta"
+}
