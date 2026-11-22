@@ -1,0 +1,96 @@
+{
+ "issues": [
+  {
+   "titulo": "T1 · Bus de eventos, estado del juego y sonido",
+   "archivo": "issue_01.md",
+   "etiqueta": "joel"
+  },
+  {
+   "titulo": "T2 · Lógica del sol y la sombra",
+   "archivo": "issue_02.md",
+   "etiqueta": "joel"
+  },
+  {
+   "titulo": "T3 · Mundo 3D y nivel jugable",
+   "archivo": "issue_03.md",
+   "etiqueta": "joel"
+  },
+  {
+   "titulo": "T4 · Enemigos con comportamientos",
+   "archivo": "issue_04.md",
+   "etiqueta": "jorge"
+  },
+  {
+   "titulo": "T5 · HUD y paneles",
+   "archivo": "issue_05.md",
+   "etiqueta": "jorge"
+  },
+  {
+   "titulo": "T6 · Menú principal y modo DEMO",
+   "archivo": "issue_06.md",
+   "etiqueta": "jorge"
+  },
+  {
+   "titulo": "T7 · Mercado del reloj (transacciones)",
+   "archivo": "issue_07.md",
+   "etiqueta": "joel"
+  },
+  {
+   "titulo": "T8 · Pruebas automáticas",
+   "archivo": "issue_08.md",
+   "etiqueta": "beta"
+  },
+  {
+   "titulo": "T9 · Ejecutable y capturas",
+   "archivo": "issue_09.md",
+   "etiqueta": "beta"
+  },
+  {
+   "titulo": "T10 · Manual, reporte de pruebas y portafolio",
+   "archivo": "issue_10.md",
+   "etiqueta": "beta"
+  }
+ ],
+ "prs": [
+  {
+   "id": 1,
+   "autor": "joel",
+   "base": "main",
+   "rama": "feature/nucleo-sol-sombra",
+   "titulo": "Núcleo del sol y la sombra, mundo 3D y nivel jugable",
+   "archivo": "pr_1.md"
+  },
+  {
+   "id": 2,
+   "autor": "jorge",
+   "base": "feature/nucleo-sol-sombra",
+   "rama": "feature/enemigos",
+   "titulo": "Enemigos con comportamientos (destello, serpiente y lagartija)",
+   "archivo": "pr_2.md"
+  },
+  {
+   "id": 3,
+   "autor": "jorge",
+   "base": "feature/enemigos",
+   "rama": "feature/interfaz-demo",
+   "titulo": "Interfaz (HUD, menú y paneles) y modo DEMO",
+   "archivo": "pr_3.md"
+  },
+  {
+   "id": 4,
+   "autor": "joel",
+   "base": "feature/interfaz-demo",
+   "rama": "feature/mercado",
+   "titulo": "Mercado del reloj con transacciones e historial",
+   "archivo": "pr_4.md"
+  },
+  {
+   "id": 5,
+   "autor": "joel",
+   "base": "feature/mercado",
+   "rama": "feature/pruebas-beta",
+   "titulo": "Pruebas automáticas, ejecutable y documentación de la beta",
+   "archivo": "pr_5.md"
+  }
+ ]
+}
