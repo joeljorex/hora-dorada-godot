@@ -9,3 +9,5 @@ Abrir `project.godot` en Godot 4.7. El juego completo corre al unir hasta el PR 
 Cierra #1, cierra #2, cierra #3.
 
 **Revisa:** Jorge
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)

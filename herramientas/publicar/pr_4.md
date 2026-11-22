@@ -9,3 +9,5 @@ Ganar un nivel → Mercado del reloj → comprar.
 Cierra #7.
 
 **Revisa:** Jorge
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)

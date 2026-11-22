@@ -42,8 +42,8 @@ foreach ($i in $datos.issues) {
 Paso "4/6 Pull Requests de Joel"
 foreach ($p in $datos.prs) {
     if ($p.autor -ne "joel") { continue }
-    $ya = @(gh pr list --repo $repo --head $p.rama --state all --json number | ConvertFrom-Json)
-    if ($ya.Count -gt 0) { Write-Host "Ya existe el PR de $($p.rama)"; continue }
+    $ya = gh pr list --repo $repo --head $p.rama --state all --json number --jq 'length'
+    if ([int]$ya -gt 0) { Write-Host "Ya existe el PR de $($p.rama)"; continue }
     gh pr create --repo $repo --base $p.base --head $p.rama --title $p.titulo --body-file "$PSScriptRoot\$($p.archivo)" --label joel
     Revisar "abrir el PR de $($p.rama)"
 }

@@ -9,3 +9,5 @@
 Cierra #8, cierra #9, cierra #10.
 
 **Revisan:** ambos
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
